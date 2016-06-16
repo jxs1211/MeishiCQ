@@ -97,7 +97,7 @@ public class MainActivity extends FragmentActivity
 
     private void continueClickExitApp()
     {
-        if (System.currentTimeMillis() - this.mExitTime > 2000L)
+        if (System.currentTimeMillis() - mExitTime > 2000L)
         {//大于2s弹出toast
             Toast.makeText(getApplicationContext(), R.string.exit_tips_one_more_time, Toast.LENGTH_SHORT).show();
             this.mExitTime = System.currentTimeMillis();// 记录下这个点击的时间点
