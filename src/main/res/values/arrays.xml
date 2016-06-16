@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_item_maps">
+        <item>百度地图</item>
+        <item>高德地图</item>
+    </string-array>
+    <string-array name="dialog_item_texts">
+        <item>拨打电话</item>
+        <item>开启导航</item>
+    </string-array>
+    <array name="district_item_imgs">
+        <item>@drawable/yzq_food_shiweixuanyangrouguan</item>
+        <item>@drawable/spb_food_badatuo</item>
+        <item>@drawable/nananqu_food_tusanguo</item>
+        <item>@drawable/banan_food_sandapeng</item>
+        <item>@drawable/jiangbeiqu_food_qingquanlucaiguan</item>
+        <item>@drawable/yubeiqu_food_yiguanwanlixiang</item>
+        <item>@drawable/jiulongpo_food_minguojianghu</item>
+        <item>@drawable/dadukou_food_zuijinxiaowuyuhua</item>
+    </array>
+    <string-array name="district_names">
+        <item>渝中区</item>
+        <item>沙坪坝区</item>
+        <item>南岸区</item>
+        <item>巴南区</item>
+        <item>江北区</item>
+        <item>渝北区</item>
+        <item>九龙坡区</item>
+        <item>大渡口区</item>
+    </string-array>
+    <array name="foodtype_imgs">
+        <item>@drawable/foodtype_yu</item>
+        <item>@drawable/foodtype_ji4</item>
+        <item>@drawable/foodtype_huoguochuanchuan</item>
+    </array>
+    <string-array name="foodtype_names">
+        <item>爱鱼者美</item>
+        <item>鸡的吃法</item>
+        <item>火锅串串</item>
+    </string-array>
+    <string-array name="list_item_addresses_banannqu">
+        <item>巴南区 李石路合建村252号小河村苑停车库对面（导航：重庆市第七人民医院门诊部）</item>
+        <item>巴南区 一品镇沿河街36号（导航：沿河饭店）</item>
+        <item>巴南区 李家沱群乐佳苑小区对面（导航：群乐佳苑）</item>
+        <item>巴南区 一品镇沿河街沿河饭店旁（导航：沿河饭店）</item>
+        <item>巴南区 李家沱长江二桥南桥头（导航：二桥饭庄）</item>
+        <item>巴南区 南泉镇虎啸村11社15号（近界石南温泉附近）（导航：盘龙居）</item>
+        <item>巴南区 南泉镇樵坪风景区中湖山庄（导航：中湖山庄）</item>
+        <item>巴南区 丰盛古镇十字街（导航：丰盛古镇）</item>
+        <item>巴南区 界石镇武新村（导航：界石三大盆）</item>
+        <item>巴南区 中干道85号(巴南区国土局旁)（导航：好厨来炖鸡馆）</item>
+        <item>巴南区 木洞镇（导航：木洞水上漂）</item>
+    </string-array>
+    <string-array name="list_item_addresses_dadukouqu">
+        <item>大渡口区 文体路枫丹筱筑半山居的正门旁边（导航：醉今宵乌鱼府）</item>
+        <item>大渡口区 金桥路建桥工业园区附近（导航：川友耗儿鱼庄）</item>
+        <item>大渡口区 沃尔玛斜对面30多米处（导航：巴人鸡）</item>
+    </string-array>
+    <string-array name="list_item_addresses_huoguo">
+        <item>渝中区解放西路185号（导航：店名）</item>
+        <item>南岸区 裕华村106号(祥和人家底商)（导航：重庆祝幺妹火锅总店）</item>
+        <item>南岸区 弹子石大佛段老街（导航：叶小包）</item>
+        <item>渝北区石子山体育公园附近，602公交车总站往北，抵拢右拐，再走几十米（导航：店名）</item>
+        <item>观音桥洋河中路60号（导航：逗士串串）</item>
+        <item>江北区金源路66号附3号（导航：嘿串串）</item>
+        <item>杨家坪直港大道附16-17号（导航：怒火八零）</item>
+    </string-array>
+    <string-array name="list_item_addresses_ji">
+        <item>渝中区渝州路178号立源小区3栋步行街10号（导航：店名（石油路店））</item>
+        <item>沙坪坝兴国湾42号旁边（导航：重庆凌汤圆食品有限公司）</item>
+        <item>沙坪坝梨树湾胜利村72号（谭谭鱼附近）（导航：谭谭鱼）</item>
+        <item>沙坪坝凤鸣中学老小区对面，新桥村村委会附近（导航：同顺福酒楼）</item>
+        <item>沙坪坝梨树湾（导航：融汇温泉露天停车场）</item>
+        <item>南岸区 南湖路34号附4号（导航：无）</item>
+        <item>南岸区 福利社福红路，在阳光汇、南坪心心幼儿园附近（导航：南坪街道阳光社区卫生服务站）</item>
+        <item>巴南区 李石路合建村252号小河村苑停车库对面（导航：重庆市第七人民医院门诊部）</item>
+        <item>巴南区 南泉镇樵坪风景区中湖山庄（导航：中湖山庄）</item>
+        <item>巴南区 界石镇武新村（导航：界石三大盆）</item>
+        <item>巴南区 中干道85号(巴南区国土局)（导航：好厨来炖鸡馆）</item>
+        <item>江北区建新东路27号,324医院如家快捷酒店附近（导航：店名）</item>
+        <item>渝北区龙溪镇金岛花园120加气站直下200米（大运河山庄）（导航：大运河山庄）</item>
+        <item>大渡口区 沃尔玛斜对面30多米处（导航：巴人鸡）</item>
+    </string-array>
+    <string-array name="list_item_addresses_jiangbeiqu">
+        <item>江北区观音桥洋河中路60号（导航：逗士串串）</item>
+        <item>江北区建新村156号1-2，大兴村永辉超市前50米（导航：梯坎儿小酒馆）</item>
+        <item>江北区五里店笑禅土豆腐梭边鱼（导航：笑禅土豆腐梭边鱼）</item>
+        <item>江北区洋河三路，市文化委旁的小路走进去左手边（导航：小哥碗碗菜）</item>
+        <item>江北区建新东路27号,324医院如家快捷酒店附近（导航：八宝辣子鸡面庄）</item>
+        <item>江北区金源路66号附3号（导航：嘿串串）</item>
+        <item>江北区盘溪四支路（导航：暂无）</item>
+        <item>江北区北滨路石门大桥下（华润中央公园路口）（导航：老房子私房菜）</item>
+        <item>江北五里店五江路14号附20号（导航：笑禅土豆腐梭边鱼）</item>
+        <item>江北鲤鱼池大兴村车站旁斜坡下行200米（导航：独行虾）</item>
+        <item>江北金渝大道136号康馨园13栋三单元1-4（导航：店名）</item>
+        <item>江北区建新北路65号外贸大厦背后，老海关对面，坐公交大庙站下（导航：茅溪老火锅青椒鱼）</item>
+        <item>江北区郭家沱铜锣峡粮站对面（导航：清泉馆）</item>
+    </string-array>
+    <string-array name="list_item_addresses_jiulongpoqu">
+        <item>九龙坡区 北大资源燕南大道七街区商业区2楼（导航：燕南大道七街区）</item>
+        <item>杨家坪直港大道走到底，往右转，过佳宇英皇酒店，往黄桷坪方向的拐角，对面的烂偏偏房子就到了（导航：无）</item>
+        <item>杨家坪 杨家坪直港大道天长路星河世家门面23号（导航：星河世家）</item>
+        <item>九龙坡区 白市驿白欣路(近白市驿二小正大门对面)（导航：白市驿第二小学）</item>
+        <item>九龙坡区 红狮大道5号10幢附7号(恒胜钢材市场对面）（导航：恒胜钢材市场）</item>
+        <item>九龙坡区 团结路祥瑞新城附33号（导航：民国江湖）</item>
+        <item>九龙坡区 科园一街（导航：森林小学）</item>
+        <item>杨家坪直港大道附16-17号（导航：怒火八零）</item>
+        <item>谢家湾鹅公岩大桥北桥头（导航：桥头罗非鱼）</item>
+    </string-array>
+    <string-array name="list_item_addresses_nananqu">
+        <item>南岸区 弹子石转盘(近卫国路)（导航：易羊肉汤锅）</item>
+        <item>南岸区 长生桥横街东升彼岸小区停车，进入老街，打听老板陈二娃（导航：东升彼岸）</item>
+        <item>南岸区 南坪五小区公交站步行几十米（导航：五小区公交站）</item>
+        <item>南岸区 南湖路34号附4号地铁3号线五公里1号出口，回龙湾花市361车站调度室旁20米（导航：地铁3号线五公里1号出口）</item>
+        <item>南岸区 弹子石宏声假日广场对面,弹子石小学旁（导航：弹子石小学）</item>
+        <item>南岸区 裕华村106号祥和人家底商（导航：重庆祝幺妹火锅总店）</item>
+        <item>南岸区 弹子石大佛段老街（导航：叶小包）</item>
+        <item>南岸区 开车上南山，广益中学文峰校区左拐（导航：鲍三酒楼）</item>
+        <item>南岸区 福利社福红路，在阳光汇、南坪心心幼儿园附近（导航：南坪街道阳光社区卫生服务站）</item>
+        <item>南岸区 弹子石宏声假日广场对面（导航：宏声假日广场）</item>
+        <item>南岸区 长生桥镇富翔花园胖哥餐馆（导航：富翔花园）</item>
+        <item>南岸区 南山一棵树观景台，上行两百米左转，南山管委会正对面（导航：南山管委会）</item>
+        <item>南岸区 下浩正街13号（导航：轻轨6号线到上新街1号出口，步行几分钟，到下浩正街）</item>
+        <item>南岸区 苏家坝帝豪峰小区，四号车库附近（导航：帝豪峰小区）</item>
+        <item>南岸区 重百旁边的丽华酒店，正对面的小巷，进去约十几米（导航：丽华酒店）</item>
+    </string-array>
+    <string-array name="list_item_addresses_spb">
+        <item>沙坪坝杨公桥立交往梨树湾（杨梨路）方向，下了匝道的路边（导航：坡坡土鲫鱼）</item>
+        <item>沙坪坝兴国湾42号旁边（导航：重庆凌汤圆食品有限公司）</item>
+        <item>沙坪坝梨树湾胜利村72号（导航：谭谭鱼）</item>
+        <item>沙坪坝梨树湾胜利村72号（谭谭鱼附近）（导航：谭谭鱼）</item>
+        <item>沙坪坝陈家湾重师后门（南友小区里）（导航：陈家湾重师后门）</item>
+        <item>沙坪坝凤鸣中学老校区对面，新桥村村委会附近（导航：同福顺酒楼）</item>
+        <item>沙坪坝歌乐山下天池，距离歌乐山广场步行20分钟（导航：好事家园农家乐）</item>
+        <item>沙坪坝歌乐山山洞村（导航：一把骨）</item>
+        <item>沙坪坝梨树湾村（导航：融汇温泉露天停车场）</item>
+        <item>沙坪坝天星桥天马支路21号（导航：邓公本味卤）</item>
+    </string-array>
+    <string-array name="list_item_addresses_ybq">
+        <item>渝北区松石之路108号附4号金岛花园附近（导航：渝北区老地方蹄花汤）</item>
+        <item>渝北区安康路106号，渝北广播电视台对面（导航：一罐万里香）</item>
+        <item>渝北区花园路76号附近（洛碛镇场镇）（导航：戴豆花）</item>
+        <item>渝北区龙顺街73号（导航：糯二胡红烧馆）</item>
+        <item>渝北区回兴街道宝圣西路151号（导航：臻牛坊）</item>
+        <item>渝北区人和208公交起点站对面重客隆超市旁小路下行几十米（导航：琼瑶食店）</item>
+        <item>渝北区石子山体育公园附近，602公交车总站往北，走到底右转再走几十米（导航：王缸钵火锅）</item>
+        <item>渝北区两路茨竹镇周老七青椒鱼（导航：两路茨竹镇）</item>
+        <item>渝北区大竹林街道106号康庄美地小区附近（导航：金竹路三顾牛庄）</item>
+        <item>渝北区木耳镇万寿街69号，渝汉中学上坡左转就到（导航：渝汉中学）</item>
+        <item>渝北区石鞋邮政所北行500米左右（导航：明华饭店）</item>
+        <item>渝北区龙溪镇金岛花园120加气站直下200米（大运河山庄）（导航：大运河山庄）</item>
+        <item>渝北区人和龙寿路32号，龙寿宾馆旁小路进去左手第一家（导航：龙寿宾馆）</item>
+    </string-array>
+    <string-array name="list_item_addresses_yu">
+        <item>渝中区嘉陵新路30号（佛图关轻轨站附近）（导航：巴香苑乌鱼花）</item>
+        <item>渝中区佛图关二层马路（佛图关轻轨站附近）（导航：茶泡饭）</item>
+        <item>沙坪坝梨树湾胜利村72号（导航：谭谭鱼）</item>
+        <item>南岸区 南山一棵树观景台，上行两百米左转，南山管委会正对面（导航：南山管委会）</item>
+        <item>南岸区 长生桥横街53号，东升彼岸小区停车，进入老街，打听老板陈二娃（导航：东升彼岸）</item>
+        <item>南岸区 下浩正街13号（导航：轻轨6号线到上新街1号出口，步行几分钟，到下浩正街）</item>
+        <item>南岸区 重百旁边的丽华酒店，正对面的小巷，进去约几十米（导航：丽华酒店）</item>
+        <item>江北区盘溪四支路（导航：暂无）</item>
+        <item>江北五里店五江路14号附20号（导航：笑禅土豆腐梭边鱼）</item>
+        <item>江北金渝大道136号康馨园13栋三单元1-4（导航：茅溪老火锅青椒鱼）</item>
+        <item>渝北区两路茨竹镇周老七青椒鱼（导航：两路茨竹镇）</item>
+        <item>杨家坪 杨家坪直港大道天长路星河世家门面23号（导航：星河世家）</item>
+        <item>谢家湾鹅公岩大桥北桥头（导航：桥头罗非鱼）</item>
+        <item>大渡口区 文体路枫丹筱筑半山居正门附近（导航：醉今宵乌鱼府）</item>
+        <item>大渡口区 金桥路建桥工业园区附近（导航：川友耗儿鱼庄）</item>
+    </string-array>
+    <string-array name="list_item_addresses_yzq">
+        <item>渝中区渝州路178号立源小区3栋步行街10号（导航：漆家鸡（石油路店））</item>
+        <item>渝中区解放西路185号（导航：唐鸭肠王火锅）</item>
+        <item>渝中区大坪长江二路（导航：骆哥老羊馆）</item>
+        <item>渝中区大坪九坑子路3号附8号（导航：王老六全羊汤锅）</item>
+        <item>渝中区中山四路79号（近曾家岩轻轨站）（导航：喜洋洋餐馆）</item>
+        <item>渝中区解放东路储奇门车站旁（导航：食味轩羊肉馆）</item>
+        <item>渝中区地铁1号线七星岗站2号出口（导航：纯阳酒馆）</item>
+        <item>渝中区地铁2号线较场口站10号出口（导航：饭巴跎）</item>
+        <item>渝中区李子坝正街建设新村19号（导航：程大嘴美蛙）</item>
+        <item>渝中区大溪沟嘉陵江滨江路（大溪沟滨江路旁）（导航：嘉滨苑）</item>
+        <item>渝中区嘉陵新路30号（佛图关轻轨站附近）（导航：巴香苑乌鱼花）</item>
+        <item>渝中区佛图关二层马路（佛图关轻轨站附近）（导航：茶泡饭）</item>
+    </string-array>
+    <array name="list_item_imgs_bananqu">
+        <item>@drawable/banan_food_tongjishaojigong</item>
+        <item>@drawable/banan_food_yanhefandian</item>
+        <item>@drawable/banan_food_yucairenjiajianghucai</item>
+        <item>@drawable/banan_food_yipindouhuashuishangpiao</item>
+        <item>@drawable/banan_food_erqiaofanzhuang</item>
+        <item>@drawable/banan_food_panlongju</item>
+        <item>@drawable/banan_food_zhouyaoji</item>
+        <item>@drawable/banan_food_juyuangong</item>
+        <item>@drawable/banan_food_sandapeng</item>
+        <item>@drawable/banan_food_haocunlaidunjiguan</item>
+        <item>@drawable/banan_food_mudongdouhuafan</item>
+    </array>
+    <array name="list_item_imgs_dadukouqu">
+        <item>@drawable/dadukou_food_zuijinxiaowuyuhua</item>
+        <item>@drawable/dadukou_food_chuanyouhaoeryu</item>
+        <item>@drawable/dadukou_food_barenji</item>
+    </array>
+    <array name="list_item_imgs_huoguo">
+        <item>@drawable/yzq_food_tangyachangwanghuoguo</item>
+        <item>@drawable/nananqu_food_zhuyaomeihuoguo</item>
+        <item>@drawable/nananqu_food_danzishisantuoyao</item>
+        <item>@drawable/yubeiqu_food_wanggangbohuoguo</item>
+        <item>@drawable/jiangbeiqu_food_doushichuanchuan</item>
+        <item>@drawable/jiangbeiqu_food_heichuanchuan</item>
+        <item>@drawable/jiulongpo_food_nuhuobalinchuanchuan</item>
+    </array>
+    <array name="list_item_imgs_ji">
+        <item>@drawable/yzq_food_qijiaji</item>
+        <item>@drawable/spb_food_zhulinbaikanji</item>
+        <item>@drawable/spb_food_yaoyaoji</item>
+        <item>@drawable/spb_food_tongshunfubaikanji</item>
+        <item>@drawable/spb_food_liangjiangshuangjiaoji</item>
+        <item>@drawable/nananqu_food_tusanguo</item>
+        <item>@drawable/nananqu_food_xiaohejitang</item>
+        <item>@drawable/banan_food_tongjishaojigong</item>
+        <item>@drawable/banan_food_zhouyaoji</item>
+        <item>@drawable/banan_food_sandapeng</item>
+        <item>@drawable/banan_food_haocunlaidunjiguan</item>
+        <item>@drawable/jiangbeiqu_food_babaolazijimianzhuang</item>
+        <item>@drawable/yubeiqu_food_jindaohuoyanji</item>
+        <item>@drawable/dadukou_food_barenji</item>
+    </array>
+    <array name="list_item_imgs_jiangbeiqu">
+        <item>@drawable/jiangbeiqu_food_doushichuanchuan</item>
+        <item>@drawable/jiangbeiqu_food_tikanjiuguan</item>
+        <item>@drawable/jiangbeiqu_food_qqxiangchang</item>
+        <item>@drawable/jiangbeiqu_food_xiaogewanwantang</item>
+        <item>@drawable/jiangbeiqu_food_babaolazijimianzhuang</item>
+        <item>@drawable/jiangbeiqu_food_heichuanchuan</item>
+        <item>@drawable/jiangbeiqu_food_diaolongwucijiyu</item>
+        <item>@drawable/jiangbeiqu_food_laofangzisifangcai</item>
+        <item>@drawable/jiangbeiqu_food_tudoufusuobianyu</item>
+        <item>@drawable/jiangbeiqu_food_duxingxia</item>
+        <item>@drawable/jiangbeiqu_food_maoqiqingjiaoyu</item>
+        <item>@drawable/jiangbeiqu_food_fengmingyuan</item>
+        <item>@drawable/jiangbeiqu_food_qingquanlucaiguan</item>
+    </array>
+    <array name="list_item_imgs_jiulongpoqu">
+        <item>@drawable/jiulongpo_food_duyidong</item>
+        <item>@drawable/jiulongpo_food_yaodianzi</item>
+        <item>@drawable/jiulongpo_food_piaoxiangyu</item>
+        <item>@drawable/jiulongpo_food_pujietihuawang</item>
+        <item>@drawable/jiulongpo_food_diguanyangrou</item>
+        <item>@drawable/jiulongpo_food_minguojianghu</item>
+        <item>@drawable/jiulongpo_food_tianyizhanshuifeichang</item>
+        <item>@drawable/jiulongpo_food_nuhuobalinchuanchuan</item>
+        <item>@drawable/jiulongpo_food_qiaotouluofeiyu</item>
+    </array>
+    <array name="list_item_imgs_nananqu">
+        <item>@drawable/nananqu_food_yiyangrou</item>
+        <item>@drawable/nananqu_food_laojiecanguan</item>
+        <item>@drawable/nananqu_food_chenjiyangrou</item>
+        <item>@drawable/nananqu_food_tusanguo</item>
+        <item>@drawable/nananqu_food_xiongniurou</item>
+        <item>@drawable/nananqu_food_zhuyaomeihuoguo</item>
+        <item>@drawable/nananqu_food_danzishisantuoyao</item>
+        <item>@drawable/nananqu_food_baosandefeichang</item>
+        <item>@drawable/nananqu_food_xiaohejitang</item>
+        <item>@drawable/nananqu_food_zhangyazi</item>
+        <item>@drawable/nananqu_food_panggecanguan</item>
+        <item>@drawable/nananqu_food_qinxiangkaiweiyu</item>
+        <item>@drawable/nananqu_food_xiahaoshiduowei</item>
+        <item>@drawable/nananqu_food_caojieyucun</item>
+        <item>@drawable/nananqu_food_erguangjiyu</item>
+    </array>
+    <array name="list_item_imgs_spb">
+        <item>@drawable/spb_food_tianjiadiyizheng</item>
+        <item>@drawable/spb_food_zhulinbaikanji</item>
+        <item>@drawable/spb_food_tantanyu</item>
+        <item>@drawable/spb_food_yaoyaoji</item>
+        <item>@drawable/spb_food_badatuo</item>
+        <item>@drawable/spb_food_tongshunfubaikanji</item>
+        <item>@drawable/spb_food_yiesanchi</item>
+        <item>@drawable/spb_food_yibagu</item>
+        <item>@drawable/spb_food_liangjiangshuangjiaoji</item>
+        <item>@drawable/spb_food_denggongbenweilu</item>
+    </array>
+    <array name="list_item_imgs_ybq">
+        <item>@drawable/yubeiqu_food_laojiangbeichengtihua</item>
+        <item>@drawable/yubeiqu_food_yiguanwanlixiang</item>
+        <item>@drawable/yubeiqu_food_luozedaidouhua</item>
+        <item>@drawable/yubeiqu_food_nuoerhushaocai</item>
+        <item>@drawable/yubeiqu_food_zhenniufang</item>
+        <item>@drawable/yubeiqu_food_qiongyaoshitang</item>
+        <item>@drawable/yubeiqu_food_wanggangbohuoguo</item>
+        <item>@drawable/yubeiqu_food_cizuqingjiaoyu</item>
+        <item>@drawable/yubeiqu_food_sanguniuzhuang</item>
+        <item>@drawable/yubeiqu_food_laojiefandian</item>
+        <item>@drawable/yubeiqu_food_minghuafandian</item>
+        <item>@drawable/yubeiqu_food_jindaohuoyanji</item>
+        <item>@drawable/yubeiqu_food_wumingdouhua</item>
+    </array>
+    <array name="list_item_imgs_yu">
+        <item>@drawable/yzq_food_baxiangyuanwuyuhua</item>
+        <item>@drawable/yzq_food_chapaofan</item>
+        <item>@drawable/spb_food_tantanyu</item>
+        <item>@drawable/nananqu_food_qinxiangkaiweiyu</item>
+        <item>@drawable/nananqu_food_laojiecanguan</item>
+        <item>@drawable/nananqu_food_xiahaoshiduowei</item>
+        <item>@drawable/nananqu_food_erguangjiyu</item>
+        <item>@drawable/jiangbeiqu_food_diaolongwucijiyu</item>
+        <item>@drawable/jiangbeiqu_food_tudoufusuobianyu</item>
+        <item>@drawable/jiangbeiqu_food_maoqiqingjiaoyu</item>
+        <item>@drawable/yubeiqu_food_cizuqingjiaoyu</item>
+        <item>@drawable/jiulongpo_food_piaoxiangyu</item>
+        <item>@drawable/jiulongpo_food_qiaotouluofeiyu</item>
+        <item>@drawable/dadukou_food_zuijinxiaowuyuhua</item>
+        <item>@drawable/dadukou_food_chuanyouhaoeryu</item>
+    </array>
+    <array name="list_item_imgs_yzq">
+        <item>@drawable/yzq_food_qijiaji</item>
+        <item>@drawable/yzq_food_tangyachangwanghuoguo</item>
+        <item>@drawable/yzq_food_tuogelaoyangguan</item>
+        <item>@drawable/yzq_food_wanglaoliuqianyangtangguo</item>
+        <item>@drawable/yzq_food_xiyangyangcanguan</item>
+        <item>@drawable/yzq_food_shiweixuanyangrouguan</item>
+        <item>@drawable/yzq_food_chunyangjiujia</item>
+        <item>@drawable/yzq_food_fanbatuo</item>
+        <item>@drawable/yzq_food_chengdazhuimeiwa</item>
+        <item>@drawable/yzq_food_jiabinyuan</item>
+        <item>@drawable/yzq_food_baxiangyuanwuyuhua</item>
+        <item>@drawable/yzq_food_chapaofan</item>
+    </array>
+    <string-array name="list_item_names_banannqu">
+        <item>童记烧鸡公</item>
+        <item>沿河饭店</item>
+        <item>渝菜人家江湖菜</item>
+        <item>一品豆花水上漂</item>
+        <item>二桥饭庄</item>
+        <item>盘龙居</item>
+        <item>周幺鸡</item>
+        <item>聚缘宫</item>
+        <item>三大盆</item>
+        <item>好厨来炖鸡馆</item>
+        <item>木洞豆花饭</item>
+    </string-array>
+    <string-array name="list_item_names_dadukouqu">
+        <item>醉今宵乌鱼花</item>
+        <item>川友耗儿鱼</item>
+        <item>巴人鸡</item>
+    </string-array>
+    <string-array name="list_item_names_huoguo">
+        <item>唐鸭肠王火锅</item>
+        <item>祝幺妹火锅</item>
+        <item>弹子石三拖幺</item>
+        <item>王缸钵火锅</item>
+        <item>逗士串串</item>
+        <item>嘿串串</item>
+        <item>怒火80串串</item>
+    </string-array>
+    <string-array name="list_item_names_ji">
+        <item>漆家鸡</item>
+        <item>竹林白砍鸡</item>
+        <item>姚姚鸡</item>
+        <item>同富顺白砍鸡</item>
+        <item>两江双椒鸡</item>
+        <item>土三锅</item>
+        <item>小何鸡汤</item>
+        <item>童记烧鸡公</item>
+        <item>周幺鸡</item>
+        <item>三大盆</item>
+        <item>好厨来炖鸡馆</item>
+        <item>八宝辣子鸡面庄</item>
+        <item>金岛火焰鸡</item>
+        <item>巴人鸡</item>
+    </string-array>
+    <string-array name="list_item_names_jiangbeiqu">
+        <item>逗士串串</item>
+        <item>梯坎酒馆</item>
+        <item>QQ香肠</item>
+        <item>小哥碗碗菜</item>
+        <item>八宝辣子鸡面庄</item>
+        <item>嘿串串</item>
+        <item>钓龙无刺鲫鱼</item>
+        <item>老房子私房菜</item>
+        <item>土豆腐梭边鱼</item>
+        <item>独行虾</item>
+        <item>茅溪老火锅青椒鱼</item>
+        <item>凤鸣园</item>
+        <item>清泉卤菜馆</item>
+    </string-array>
+    <string-array name="list_item_names_jiulongpoqu">
+        <item>雅洁杜一栋</item>
+        <item>幺店子</item>
+        <item>逸家居飘香鱼</item>
+        <item>蒲姐蹄花王</item>
+        <item>鼎罐羊肉</item>
+        <item>民国江湖</item>
+        <item>天一沾水肥肠</item>
+        <item>怒火80串串</item>
+        <item>桥头罗非鱼</item>
+    </string-array>
+    <string-array name="list_item_names_nananqu">
+        <item>易羊肉</item>
+        <item>老街餐馆</item>
+        <item>陈记羊肉</item>
+        <item>土三锅</item>
+        <item>熊牛肉</item>
+        <item>祝幺妹火锅</item>
+        <item>弹子石三拖幺</item>
+        <item>鲍三的肥肠</item>
+        <item>小何鸡汤</item>
+        <item>张鸭子</item>
+        <item>胖哥餐馆</item>
+        <item>芹香开胃鱼</item>
+        <item>下浩十多味</item>
+        <item>草街渔村</item>
+        <item>耳光鲫鱼</item>
+    </string-array>
+    <string-array name="list_item_names_spb">
+        <item>天下第一蒸</item>
+        <item>竹林白砍鸡</item>
+        <item>谭谭鱼</item>
+        <item>姚姚鸡</item>
+        <item>捌大坨耙牛肉</item>
+        <item>同福顺白砍鸡</item>
+        <item>一鹅三吃</item>
+        <item>一把骨</item>
+        <item>两江双椒鸡</item>
+        <item>邓公本味卤</item>
+    </string-array>
+    <string-array name="list_item_names_ybq">
+        <item>老江北城蹄花</item>
+        <item>一罐万里香</item>
+        <item>洛碛戴豆花</item>
+        <item>糯二胡烧菜</item>
+        <item>臻牛坊</item>
+        <item>琼瑶食店</item>
+        <item>王缸钵火锅</item>
+        <item>茨竹青椒鱼</item>
+        <item>三顾牛庄</item>
+        <item>老街饭店</item>
+        <item>明华饭店</item>
+        <item>金岛火焰鸡</item>
+        <item>无名豆花</item>
+    </string-array>
+    <string-array name="list_item_names_yu">
+        <item>巴香苑乌鱼花</item>
+        <item>茶泡饭</item>
+        <item>谭谭鱼</item>
+        <item>芹香开胃鱼</item>
+        <item>老街餐馆</item>
+        <item>下浩十多味</item>
+        <item>耳光鲫鱼</item>
+        <item>钓龙无刺鲫鱼</item>
+        <item>土豆腐梭边鱼</item>
+        <item>茅溪老火锅青椒鱼</item>
+        <item>茨竹青椒鱼</item>
+        <item>逸家居飘香鱼</item>
+        <item>桥头罗非鱼</item>
+        <item>醉今宵乌鱼花</item>
+        <item>川友耗儿鱼</item>
+    </string-array>
+    <string-array name="list_item_names_yzq">
+        <item>漆家鸡</item>
+        <item>唐鸭肠王火锅</item>
+        <item>骆哥老羊馆</item>
+        <item>王老六全羊汤锅</item>
+        <item>喜洋洋餐馆</item>
+        <item>食味轩羊肉馆</item>
+        <item>纯阳酒馆</item>
+        <item>饭巴跎</item>
+        <item>程大嘴美蛙</item>
+        <item>嘉滨苑</item>
+        <item>巴香苑乌鱼花</item>
+        <item>茶泡饭</item>
+    </string-array>
+    <string-array name="list_item_numbers_banannqu">
+        <item>023-62850167</item>
+        <item>023-66480639</item>
+        <item>13883313714</item>
+        <item>18166343659</item>
+        <item>13018359782</item>
+        <item>13330251098</item>
+        <item>023-62846789</item>
+        <item>13996228062</item>
+        <item>023-66419344</item>
+        <item>023-66215727</item>
+        <item>13883830001</item>
+    </string-array>
+    <string-array name="list_item_numbers_dadukouqu">
+        <item>023-61592218</item>
+        <item>023-68911782</item>
+        <item>023-86585088</item>
+    </string-array>
+    <string-array name="list_item_numbers_huoguo">
+        <item>023-63927831</item>
+        <item>15808001830</item>
+        <item>老板不留电话</item>
+        <item>13808318989</item>
+        <item>023-67874520</item>
+        <item>023-62321117</item>
+        <item>023-68043003</item>
+    </string-array>
+    <string-array name="list_item_numbers_ji">
+        <item>023-68581988</item>
+        <item>023-65155613</item>
+        <item>023-65411019</item>
+        <item>13896011112</item>
+        <item>023-65301501</item>
+        <item>023-62313291</item>
+        <item>13512330409</item>
+        <item>023-62850167</item>
+        <item>023-62846789</item>
+        <item>023-66419344</item>
+        <item>023-66215727</item>
+        <item>13983067903</item>
+        <item>13983047200</item>
+        <item>023-86585088</item>
+    </string-array>
+    <string-array name="list_item_numbers_jiangbeiqu">
+        <item>023-67874520</item>
+        <item>13667607602</item>
+        <item>023-61199789</item>
+        <item>13638330182</item>
+        <item>13983067903</item>
+        <item>023-62321117</item>
+        <item>18623090835</item>
+        <item>13340216593</item>
+        <item>023-61199789</item>
+        <item>13983800001</item>
+        <item>15923059422</item>
+        <item>13983827722</item>
+        <item>13368231388</item>
+    </string-array>
+    <string-array name="list_item_numbers_jiulongpoqu">
+        <item>13983694101</item>
+        <item>无</item>
+        <item>023-61562163</item>
+        <item>023-65701837</item>
+        <item>023-68143960</item>
+        <item>023-68069696</item>
+        <item>023-68889160</item>
+        <item>023-68043003</item>
+        <item>13368107409</item>
+    </string-array>
+    <string-array name="list_item_numbers_nananqu">
+        <item>023-86054680</item>
+        <item>023-62455450</item>
+        <item>13983095555</item>
+        <item>023-62313291</item>
+        <item>15023255943</item>
+        <item>15808001830</item>
+        <item>老板不留电话</item>
+        <item>13452176563</item>
+        <item>13512330409</item>
+        <item>13629793191</item>
+        <item>18996819918</item>
+        <item>15123292551</item>
+        <item>13032387805</item>
+        <item>023-62786968</item>
+        <item>13508342979</item>
+    </string-array>
+    <string-array name="list_item_numbers_spb">
+        <item>023-65303131</item>
+        <item>023-65155613</item>
+        <item>023-65424089</item>
+        <item>023-65411019</item>
+        <item>15310908277</item>
+        <item>13896011112</item>
+        <item>13617635820</item>
+        <item>15213103522</item>
+        <item>023-65301501</item>
+        <item>023-65476090</item>
+    </string-array>
+    <string-array name="list_item_numbers_ybq">
+        <item>023-61802096</item>
+        <item>023-86965259</item>
+        <item>13350367951</item>
+        <item>13368406833</item>
+        <item>17783563653</item>
+        <item>15923439933</item>
+        <item>13808318989</item>
+        <item>023-67175877</item>
+        <item>023-63419558</item>
+        <item>023-67488250</item>
+        <item>023-67486043</item>
+        <item>13983047200</item>
+        <item>13637813118</item>
+    </string-array>
+    <string-array name="list_item_numbers_yu">
+        <item>15922577681</item>
+        <item>13883333139</item>
+        <item>023-65424089</item>
+        <item>15123292551</item>
+        <item>023-62455450</item>
+        <item>13032387805</item>
+        <item>13508342979</item>
+        <item>18623090835</item>
+        <item>023-61199789</item>
+        <item>15923059422</item>
+        <item>023-67175877</item>
+        <item>023-61562163</item>
+        <item>13368107409</item>
+        <item>023-61592218</item>
+        <item>023-68911782</item>
+    </string-array>
+    <string-array name="list_item_numbers_yzq">
+        <item>023-68581988</item>
+        <item>023-63927831</item>
+        <item>023-68714267</item>
+        <item>023-68709580</item>
+        <item>023-63865298</item>
+        <item>18323851856</item>
+        <item>15025448975</item>
+        <item>13808390990</item>
+        <item>18602381488</item>
+        <item>13330333822</item>
+        <item>15922577681</item>
+        <item>13883333139</item>
+    </string-array>
+    <string-array name="slide_menu_item_descs">
+        <item>这是item1</item>
+        <item>这是item2</item>
+        <item>这是item3</item>
+        <item>这是item4</item>
+        <item>这是item5</item>
+    </string-array>
+    <array name="slide_menu_item_imgs">
+        <item>@drawable/img_1</item>
+        <item>@drawable/img_2</item>
+        <item>@drawable/img_3</item>
+        <item>@drawable/img_4</item>
+        <item>@drawable/img_5</item>
+    </array>
+    <string-array name="slide_menu_item_tags">
+        <item>\#FFFF0000</item>
+        <item>\#fffff733</item>
+        <item>\#ff8a8aff</item>
+        <item>\#ffa0ff60</item>
+        <item>\#ffd780ff</item>
+    </string-array>
+    <string-array name="slide_menu_item_titles">
+        <item>ITEM1</item>
+        <item>ITEM2</item>
+        <item>ITEM3</item>
+        <item>ITEM4</item>
+        <item>ITEM5</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>分区搜索</item>
+        <item>分类搜索</item>
+    </string-array>
+    <string-array name="top_addresses">
+        <item>渝中区渝州路178号立源小区3栋步行街10号（导航：店名（石油路店））</item>
+        <item>渝中区解放西路185号（导航：店名）</item>
+    </string-array>
+    <array name="top_imgs">
+        <item>@drawable/yzq_food_qijiaji</item>
+        <item>@drawable/yzq_food_tangyachangwanghuoguo</item>
+    </array>
+    <string-array name="top_names">
+        <item>漆家鸡</item>
+        <item>唐鸭肠王火锅</item>
+    </string-array>
+    <string-array name="top_numbers">
+        <item>023-68581988</item>
+        <item>023-63927831</item>
+    </string-array>
+    <string-array name="top_zan_count">
+        <item>234</item>
+        <item>89</item>
+    </string-array>
+</resources>

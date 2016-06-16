@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="170.0dp"
+                android:background="#ffffffff"
+                android:paddingLeft="@dimen/item_margin"
+                android:paddingTop="@dimen/item_margin">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/item_split"
+        android:padding="@dimen/item_margin_big"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_bg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yzq_food_chunyangjiujia"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="20.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/background_half_transparent_black"
+            android:gravity="center"
+            android:text="爱鱼者美"
+            android:textColor="#ffffffff"
+            android:textSize="14.0sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

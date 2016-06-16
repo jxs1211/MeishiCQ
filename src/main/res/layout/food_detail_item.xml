@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_food_detail_item_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_menu_call"/>
+
+    <TextView
+        android:id="@+id/tv_food_detail_item_text"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/iv_food_detail_item_icon"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/exit_tips_one_more_time"
+        android:textColor="@color/background_black"
+        android:textSize="14.0sp"/>
+
+    <ImageView
+        android:id="@+id/iv_food_detail_arrow"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/tuan_triangle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/item_split"
+        android:padding="@dimen/item_margin_big"/>
+</RelativeLayout>

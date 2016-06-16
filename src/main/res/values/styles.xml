@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MyActivityAnmiation">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:dialogTheme">@style/MyDialogTheme</item>
+    </style>
+
+    <style name="MyActivityAnmiation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="PopupWindowAnim"></style>
+
+    <style name="MyDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <!--
+        <item name="android:windowBackground">@color/background_white</item>-->
+    </style>
+</resources>

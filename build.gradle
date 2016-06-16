@@ -1,0 +1,109 @@
+// 声明是Android程序
+apply plugin: 'com.android.application'
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    // 编译SDK的版本
+    compileSdkVersion 21
+    // build tools的版本
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        // 应用的包名
+        applicationId "xianjie.shen.myapplication"
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        // Enabling multidex support.// dex突破65535方法数量的限制
+        multiDexEnabled true
+        // 默认是umeng的渠道
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng"]
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs {
+        debug {
+            // No debug config
+        }
+
+        release {
+            storeFile file("C:\\Users\\keystore.jks")
+            storePassword "Jxs93503"
+            keyAlias "jxs"
+            keyPassword "Jxs93503"
+        }
+    }
+
+    // 友盟多渠道打包
+    productFlavors {
+        xiaomi {}
+        _360 {}
+        baidu {}
+        wandoujia {}
+        tencent {}
+        taobao {}
+    }
+
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+    buildTypes {
+        // debug模式
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+        release {
+
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+
+            // 是否进行混淆
+            minifyEnabled true
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+
+            signingConfig signingConfigs.release
+            // 混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all {
+                variant ->
+                    variant.outputs.each {
+                        output ->
+                            def outputFile = output.outputFile
+                            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                                // 输出apk名称为meishicq_v1.0_2015-01-15_wandoujia.apk
+                                def fileName = "meishicq_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                                output.outputFile = new File(outputFile.parent, fileName)
+                            }
+                    }
+            }
+        }
+    }
+}
+
+dependencies {
+    // 编译libs目录下的所有jar包
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:19+'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:support-v4:23.3.0'
+}

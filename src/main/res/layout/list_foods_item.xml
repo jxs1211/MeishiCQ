@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="80.0dip"
+                android:layout_marginTop="@dimen/item_margin"
+                android:background="@color/background_white">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_marginRight="@dimen/item_margin"
+        android:background="@color/item_split"
+        android:padding="@dimen/item_margin_big"/>
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="80.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/item_margin"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yzq_food_qijiaji"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3.0dip"
+        android:layout_toRightOf="@id/iv_img"
+        android:orientation="vertical"
+        android:padding="5.0dip">，
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="丘二馆"
+            android:textColor="#ff000000"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="\ 123456789011"
+            android:textColor="#ff000000"
+            android:textSize="11.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.0"
+            android:ellipsize="marquee"
+            android:gravity="left"
+            android:maxWidth="200.0dip"
+            android:paddingTop="3.0dip"
+            android:singleLine="false"
+            android:text="重庆市渝中区xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx路"
+            android:textColor="#88000000"
+            android:textSize="10.0sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_call"
+        android:layout_width="25.0dip"
+        android:layout_height="25.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5.0dip"
+        android:src="@drawable/mobile_phone"/>
+</RelativeLayout>

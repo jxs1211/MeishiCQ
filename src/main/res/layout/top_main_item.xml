@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffffff"
+              android:orientation="vertical"
+              android:padding="@dimen/item_margin">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="fill_parent"
+        android:layout_height="160.0dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yzq_food_chunyangjiujia"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="@dimen/item_margin"
+            android:text="吃行榜吃行榜吃行榜吃行榜"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25.0dip"
+            android:background="#ffffffff">
+
+            <TextView
+                android:id="@+id/tv_district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="渝中区"
+                android:textColor="#87000000"
+                android:textSize="10.0sp"/>
+
+            <TextView
+                android:id="@+id/tv_zan_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="100"
+                android:textColor="#87000000"
+                android:textSize="10.0sp"/>
+
+            <ImageView
+                android:id="@+id/iv_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_zan_count"
+                android:src="@drawable/map_zan"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
